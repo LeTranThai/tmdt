@@ -158,7 +158,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="filter__controls">
-                    <li class="active" data-filter="*">Bán chạy nhất</li>
+                    <li class="active" data-filter="*">Gợi ý</li>
                     <li data-filter=".new-arrivals">Sản phẩm mới</li>
                     <li data-filter=".hot-sales">Ưu đãi hấp dẫn</li>
                 </ul>
