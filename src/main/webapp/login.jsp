@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Mỹ Phẩm QST || Đăng nhập</title>
+    <title>Chăn Ga QST || Đăng nhập</title>
     <link rel="icon" href="user-template/img/icon/icon_user.jpg" type="image/x-icon">
     <link rel="stylesheet" href="user-template/css/login.css"/>
     <link
