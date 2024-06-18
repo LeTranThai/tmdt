@@ -210,7 +210,7 @@ public class UserProduct extends HttpServlet {
             int price1 = Integer.parseInt(request.getParameter("price1"));
             int price2 = Integer.parseInt(request.getParameter("price2"));
             List<Product> productList = new ArrayList<>();
-            if (price2 == 600000) {
+            if (price2 == 50000000) {
                 List<Product> list = ProductService.getProductByPrice600(price2);
                 for (Product p : list) {
                     productList.add(p);
@@ -286,13 +286,14 @@ public class UserProduct extends HttpServlet {
             String minPrice = request.getParameter("minPrice");
             String maxPrice = request.getParameter("maxPrice");
 
-            System.out.println(cate);
-            System.out.println(minPrice);
-            System.out.println(maxPrice);
-            System.out.println(trade);
-            System.out.println("----------");
+//            System.out.println(cate);
+//            System.out.println(minPrice);
+//            System.out.println(maxPrice);
+//            System.out.println(trade);
+//            System.out.println("----------");
 
             List<Product> listProduct = ProductService.filterAll(cate, trade, minPrice, maxPrice);
+            System.out.println(listProduct);
             request.setAttribute("size", listProduct.size());
             for (Product p : listProduct) {
                 List<Image> imageList = ProductService.getImages(String.valueOf(p.getIdP()));

@@ -597,6 +597,6 @@ public class ProductService {
     }
 
     public static void main(String[] args) {
-        System.out.println(filterAll("2", "0", String.valueOf(0), String.valueOf(100000000)));
+        System.out.println(filterAll("1", "1", String.valueOf(0), String.valueOf(3000000)));
     }
 }

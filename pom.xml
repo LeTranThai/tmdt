@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>ShopMyPham</artifactId>
+    <artifactId>ShopChanGa</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>ShopMyPham Maven Webapp</name>
+    <name>ShopChanGa Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -147,7 +147,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>ShopMyPham</finalName>
+        <finalName>ShopChanGa</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
