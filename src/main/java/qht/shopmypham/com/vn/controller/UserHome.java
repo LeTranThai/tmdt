@@ -16,12 +16,14 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 @WebServlet(name = "Home", value = "/home")
 public class UserHome extends HttpServlet {
     public static List<Province> provinceList;
     public static List<Product> productList = ProductService.getProductIsSell(1);
+
     static {
         try {
             provinceList = api.getProvince();
@@ -99,6 +101,7 @@ public class UserHome extends HttpServlet {
         request.setAttribute("blogList", blogList);
         request.setAttribute("listSlider", listSlider);
         request.setAttribute("activeHome", "active");
+//        response.sendRedirect("/user-template/home.jsp");
         request.getRequestDispatcher("/user-template/home.jsp").forward(request, response);
         if (acc != null) {
             idA = acc.getId();

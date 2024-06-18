@@ -145,6 +145,11 @@
             <artifactId>caffeine</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>ShopChanGa</finalName>

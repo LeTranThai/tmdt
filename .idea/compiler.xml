@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="ShopChanGa" />
+=======
+        <module name="ROOT" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

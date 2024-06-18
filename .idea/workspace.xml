@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+<<<<<<< HEAD
       <artifact name="ShopChanGa:war exploded" />
+=======
+      <artifact name="ROOT:war" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd2bb6c-f24d-4d68-a876-f516f53a9db0" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/ShopChanGa_war.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/ShopChanGa_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -1580,11 +1585,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/qht/shopmypham/com/vn/tools/Format.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/qht/shopmypham/com/vn/tools/GoogleUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/qht/shopmypham/com/vn/tools/RandomID.class" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1625,26 +1636,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
     "last_opened_file_path": "D:/TMDT/ShopMyPham_v9.4.0/ShopMyPham_v9.4.0/ShopChanGa_v9.4.0",
+=======
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/LAPTRINH/CDWEB/WEB-chatchit",
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37514383",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LAPTRINH\TMDT\tmdt" />
       <recent name="D:\DoAn\DoAnTTLTWeb\ShopMyPham_v9.3.8\src\main\webapp\user-template" />
       <recent name="D:\DoAn\DoAnTTLTWeb\ShopMyPham_v9.3.7\src\main\webapp\user-template\css" />
       <recent name="D:\Downloads\ShopMyPham_v9.3.5\ShopMyPham_v9.3.5\ShopMyPham_v9.3.4\src\main\webapp\admin-template\assets" />
       <recent name="D:\DoAnTTLTWeb\ShopMyPham_v9.3.3\src\main\webapp\admin-template" />
-      <recent name="D:\DoAnTTLTWeb\ShopMyPham_v9.3.3\src\main\webapp\user-template\img\product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Downloads\ShopMyPham_v9.3.5\ShopMyPham_v9.3.5\ShopMyPham_v9.3.4\src\main\webapp\admin-template" />
@@ -1657,6 +1674,7 @@
       <recent name="qht.shopmypham.com.vn.service" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ShopChanGa_war_exploded/home" />
@@ -1665,11 +1683,63 @@
         <artifact name="ShopChanGa:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/ShopChanGa_war_exploded" />
+=======
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.100">
+    <configuration name="JDBiConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qht.shopmypham.com.vn.db.JDBiConnector" />
+      <module name="ROOT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qht.shopmypham.com.vn.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qht.shopmypham.com.vn.service.ProductService" />
+      <module name="ShopMyPham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qht.shopmypham.com.vn.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qht.shopmypham.com.vn.model.api" />
+      <module name="ShopMyPham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qht.shopmypham.com.vn.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.100" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.100" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ROOT:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
           </settings>
         </artifact>
       </deployment>
       <server-settings>
+<<<<<<< HEAD
         <option name="BASE_DIRECTORY_NAME" value="3b25910a-055e-4e30-adfc-4a3492fdb367" />
+=======
+        <option name="BASE_DIRECTORY_NAME" value="f7515daf-67b4-45e5-8c3f-799884a0f7e8" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -1677,7 +1747,11 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
+<<<<<<< HEAD
         <option name="DEBUG_PORT" value="63615" />
+=======
+        <option name="DEBUG_PORT" value="55044" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1742,6 +1816,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+<<<<<<< HEAD
           <artifact name="ShopChanGa:war exploded" />
         </option>
       </method>
@@ -1758,6 +1833,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+          <artifact name="ROOT:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JDBiConnector" />
+      <item itemvalue="Application.api" />
+      <item itemvalue="Application.ProductService" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.100" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JDBiConnector" />
+        <item itemvalue="Application.api" />
+        <item itemvalue="Application.ProductService" />
+      </list>
+    </recent_temporary>
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1828,13 +1922,30 @@
       <workItem from="1718451428626" duration="1934000" />
       <workItem from="1718523067169" duration="16683000" />
       <workItem from="1718607665885" duration="134000" />
+<<<<<<< HEAD
       <workItem from="1718608245848" duration="3839000" />
       <workItem from="1718686166241" duration="9716000" />
       <workItem from="1718701101682" duration="808000" />
+=======
+      <workItem from="1718608245848" duration="3169000" />
+      <workItem from="1718679449304" duration="9150000" />
+>>>>>>> 382e7d9a2f7e19824211d3e6fd63c2799674a132
     </task>
+    <task id="LOCAL-00001" summary="[dong][edit][db]">
+      <created>1718688543878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718688543878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[dong][edit][db]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[dong][edit][db]" />
   </component>
 </project>
