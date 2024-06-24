@@ -39,7 +39,7 @@
 <div class="offcanvas-menu-overlay"></div>
 <jsp:include page="header.jsp"></jsp:include>
 <!-- Breadcrumb Section Begin -->
-<section class="breadcrumb-blog set-bg" data-setbg="user-template/img/blog/blog.jpg">
+<section class="breadcrumb-blog set-bg" data-setbg="https://media.istockphoto.com/id/860119612/vi/anh/gi%C6%B0%E1%BB%9Dng-l%E1%BB%99n-x%E1%BB%99n-g%E1%BB%91i-tr%E1%BA%AFng-v%E1%BB%9Bi-ch%C4%83n-tr%C3%AAn-gi%C6%B0%E1%BB%9Dng-kh%C3%B4ng-%C4%91%C6%B0%E1%BB%A3c-l%C3%A0m-ch%E1%BA%BF-%C4%91%E1%BB%99-xem-tr%C3%AAn-c%C3%B9ng.jpg?s=612x612&w=0&k=20&c=JYel-jlXi1pEPp7_V9BZ-G0Q_pve8jKWfjN_WGkcfQU=">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
